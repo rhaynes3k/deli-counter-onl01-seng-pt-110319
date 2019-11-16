@@ -9,6 +9,7 @@ def line(katz_deli)
   end
 end
 def take_a_number(katz_deli, str)
+<<<<<<< HEAD
   if katz_deli.length == 0
     katz_deli << str
     puts "Welcome, #{katz_deli[0]}. You are number #{katz_deli.length} in line."
@@ -28,5 +29,9 @@ def now_serving(katz_deli)
   elsif katz_deli.length == 0
     puts "There is nobody waiting to be served!"
   end
+=======
+  katz_deli << str
+  puts katz_deli
+>>>>>>> c1aba7463a95b97460edef5e454fba65e3479f7d
 end
 # Write your code here.
